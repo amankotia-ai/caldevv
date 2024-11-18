@@ -11,7 +11,7 @@ import react from '@vitejs/plugin-react';
 
 export default  defineConfig({
 
-  base: "/react-project/",
+  base: "/caldevv/",
   plugins: [react()]
 
 
