@@ -19,8 +19,8 @@ export function Calendar({ selectedDate, onDateSelect }: CalendarProps) {
           <button
             key={day.toString()}
             onClick={() => onDateSelect(day)}
-            className={`flex flex-col items-center min-w-[48px] p-2 rounded-full transition-colors
-              ${isSelected ? 'bg-black text-white' : 'hover:bg-gray-100'}`}
+            className={`flex flex-col items-center min-w-[48px] p-2 transition-colors
+              ${isSelected ? 'bg-black text-white rounded-[16px]' : 'hover:bg-gray-100 rounded-full'}`}
           >
             <span className="text-xs font-medium">
               {format(day, 'EEE')}
